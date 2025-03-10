@@ -26,3 +26,10 @@ Please refer to the [i3 Change Log](i3/CHANGELOG.md).
 Please refer to the [IBus Change Log](ibus/bus/CHANGELOG.md).
 
 ---
+
+---
+
+## Others
+Tmux config added 2025-10-04 
+
+---
