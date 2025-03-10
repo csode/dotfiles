@@ -3,6 +3,8 @@ export PATH=$PATH:$HOME/go/bin
 export PATH=/usr/local/bin:$PATH
 export CMAKE_ROOT=/usr/local/share/cmake-4.0.0-rc2
 export NNN_FIFO=/tmp/nnn.fifo
+export PATH=$PATH:~/lua-language-server/bin
+
 
 eval "$(starship init zsh)"
 alias v='nvim'

@@ -10,7 +10,7 @@ vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
 -- Basic operations
 vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-vim.keymap.set("n", "<leader>w", ":wq<CR>")
+vim.keymap.set("n", "<leader>w", ":w!<CR>")
 vim.keymap.set("n", "<Leader>q", "<cmd>q!<CR>", { noremap = true, silent = true })
 
 -- Reload configuration

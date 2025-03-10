@@ -4,7 +4,6 @@ vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 vim.g.mapleader = " "
-vim.g.background = "light"
 vim.o.laststatus = 0
 
 -- General options
@@ -30,10 +29,11 @@ vim.opt.incsearch = true
 
 -- Visual settings
 vim.opt.termguicolors = true
-vim.opt.scrolloff = 8
+vim.opt.scrolloff = 50
 vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 vim.opt.colorcolumn = ""
 
 vim.o.cursorline = true
+
