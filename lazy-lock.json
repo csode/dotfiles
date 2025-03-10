@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "commit_history": [
+      {
+        "version": "1.0.0",
+        "date": "2023-10-05",
+        "description": "Initial commit of configuration files for various applications. Set up basic structure for tracking changes. Added installation script to build packages from source."
+      }
+    ]
+  },
+  "dotfiles": [
+    {
+      "name": ".zshrc",
+      "version": "1.0.0",
+      "description": "Zsh shell configuration",
+      "last_updated": "2025-10-04"
+    },
+    {
+      "name": ".vimrc",
+      "version": "1.2.0",
+      "description": "Vim editor configuration",
+      "last_updated": "2025-10-04"
+    },
+    {
+      "name": ".tmux.conf",
+      "version": "1.0.0",
+      "description": "Tmux configuration",
+      "last_updated": "2025-10-04"
+    },
+    {
+      "name": "neofetch",
+      "version": "1.0.0",
+      "description": "Configuration for Neofetch",
+      "last_updated": "2023-10-05"
+    },
+    {
+      "name": "ghostty",
+      "version": "1.0.0",
+      "description": "Configuration for Ghostty",
+      "last_updated": "2025-10-5"
+    },
+    {
+      "name": "nnn",
+      "version": "1.0.0",
+      "description": "Configuration for NNN",
+      "last_updated": "2025-10-04"
+    },
+    {
+      "name": "i3",
+      "version": "1.0.0",
+      "description": "Configuration for i3 window manager",
+      "last_updated": "2025-10-04"
+    },
+    {
+      "name": "ibus",
+      "version": "1.0.0",
+      "description": "Configuration for IBus input method",
+      "last_updated": "2024-10-04"
+    }
+  ]
+}
