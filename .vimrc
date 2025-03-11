@@ -9,9 +9,6 @@ syntax on
 " enable line numbers "
 set number
 
-" highlight current line "
-set cursorline
-:highlight Cursorline cterm=bold ctermbg=black
 
 " enable highlight search pattern "
 set hlsearch
@@ -50,11 +47,14 @@ endif
 " enable true colors support "
 set termguicolors
 " Vim colorscheme "
-call plug#begin('~/.vim/plugged')
-Plug 'morhetz/gruvbox'
-call plug#end()
-colorscheme gruvbox
-set background=dark   " or set background=light for light mode
+colorscheme GruberDarker
+
+" highlight current line "
+set cursorline
+highlight CursorLine cterm=NONE gui=NONE ctermbg=NONE guibg=NONE
+highlight CursorLineNr cterm=NONE gui=NONE ctermbg=NONE guibg=NONE
+
+"set background=dark   " or set background=light for light mode
 "-------------------------------------------------------------"
 "Bonus. " Find & Replace (if you use the ignorecase, smartcase these are mandatory) "
 "            :%s/<find>/<replace>/g   "replace global (e.g. :%s/mass/grass/g)"

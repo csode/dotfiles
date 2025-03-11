@@ -10,8 +10,6 @@ if not vim.loop.fs_stat(lazypath) then
 	})
 end
 vim.opt.rtp:prepend(lazypath)
--- Disable LSP diagnostics
-vim.diagnostic.disable()
 
 require('keymap')
 require('set')

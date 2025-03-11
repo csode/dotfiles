@@ -36,4 +36,11 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = ""
 
 vim.o.cursorline = true
-
+-- Instead of vim.diagnostic.disable()
+vim.diagnostic.config({ 
+  virtual_text = false,
+  signs = false,
+  underline = false,
+  update_in_insert = false,
+  severity_sort = false
+})

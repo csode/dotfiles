@@ -32,6 +32,7 @@ The following packages will be installed during the setup:
 - **build-essential**: A package that contains essential tools for building software.
 - **git**: A version control system to manage your code.
 - **wget**: A utility for downloading files from the web.
+- **Iosevka**: A font theme for neovim,i3 and ghostty web.
 
 ## Configuration Files
 Here is a list of the main configuration files included in this repository:
@@ -62,6 +63,7 @@ Below is a list of packages I use, along with links to their official repositori
 - **Zsh**: [Zsh](https://www.zsh.org/)
 - **i3**: [i3](https://i3wm.org/)
 - **ghostty**: [ghostty](https://ghostty.org/)
+- **Iosevka**: [Font](https://github.com/be5invis/Iosevka)
 
 ## Additional Resources
 - [Bash Scripting Guide](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
@@ -70,6 +72,3 @@ Below is a list of packages I use, along with links to their official repositori
 
 ## Contributing
 Feel free to fork the repository and submit pull requests for any improvements or additional configurations.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

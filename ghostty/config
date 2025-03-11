@@ -19,7 +19,6 @@
 # ==========================
 # # The config file consists of simple key-value pairs,
 # # separated by equals signs.
- #font-family = Iosevka
 # window-padding-x = 2
 #
 # # Spacing around the equals sign does not matter.
@@ -44,3 +43,4 @@
 gtk-titlebar = false
 theme = gruber-darker
 font-size = 24
+font-family = Iosevka
