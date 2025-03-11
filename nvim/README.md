@@ -5,6 +5,7 @@ Welcome to my Neovim configuration. This is my personal setup optimized for deve
 [📚 View Neovim Cheatsheet](./CHEATSHEET.md)
 
 ## Preview
+![first](change2.png)
 ![second](second.png)
 ![third](third.png)
 ![fourth](fourth.png)
