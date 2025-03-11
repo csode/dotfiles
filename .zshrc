@@ -33,3 +33,5 @@ tmux_rename_window() {
   tmux rename-window "$1"
 }
 alias gpwd='cat ~/Documents/token.md | xclip -selection clipboard  '
+stty -ixon
+

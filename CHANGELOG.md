@@ -31,5 +31,6 @@ Please refer to the [IBus Change Log](ibus/bus/CHANGELOG.md).
 
 ## Others
 Tmux config added 2025-10-04 
+ZSH config update 2025-11-04 
 
 ---
