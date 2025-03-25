@@ -22,10 +22,9 @@ alias ll='ls -la'
 
 alias f='~/scripts/tmux.sh'
 alias tt='~/scripts/tmux_sessionizer.sh'
-alias cpp='~/scripts/cpp.sh'
+alias cppgen='~/scripts/cpp.sh'
 alias g='cd $(git ls-tree --name-only HEAD | fzf)'
-alias youtube-dl='python3 /usr/local/bin/youtube-dl'
-alias cg='~/scripts/c.sh'
+alias cggen='~/scripts/c.sh'
 
 export TERM=xterm-256color
 export PATH="$HOME/.local/bin:$PATH"

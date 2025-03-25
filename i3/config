@@ -20,10 +20,12 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+exec_always --no-startup-id i3-auto-layout
 
 floating_modifier $mod
 
 bindsym $mod+Return exec ghostty
+bindsym $mod+t exec kitty
 
 # kill focused window
 bindsym $mod+q kill
@@ -164,15 +166,13 @@ for_window [class="google-chrome-stable"]move to workspace $ws7
 
 
 bindsym $mod+o workspace $ws7; exec obsidian
-bindsym $mod+t workspace $ws8; exec spotify
-bindsym $mod+b workspace 3; exec firefox
 bindsym $mod+Shift+g workspace $ws8; exec gimp
 bindsym $mod+Shift+f workspace $ws6; exec thunar
 bindsym $mod+Shift+o workspace $ws5; exec simplescreenrecorder
 bindsym $mod+Shift+y workspace $ws10; exec pavucontrol
 bindsym $mod+Shift+t workspace $ws9; exec kdeconnect-app
 bindsym $mod+Shift+v workspace $ws4; exec google-chrome-stable
-bindsym $mod+Shift+b workspace $ws3; exec flatpak run app.zen_browser.zen
+bindsym $mod+b workspace $ws3; exec flatpak run app.zen_browser.zen
 bindsym $mod+Shift+d workspace $ws7; exec flatpak run com.discordapp.Discord
 bindsym $mod+c workspace $ws2; exec sh -c ~/Application/cursor.AppImage
 

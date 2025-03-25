@@ -40,9 +40,12 @@
 # # which is explained in the docs for that config option.
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
+shell-integration = bash
 gtk-titlebar = false
 theme = gruber-darker
-font-size = 24
+font-size = 20
 font-family = Iosevka
 clipboard-paste-bracketed-safe = false
 clipboard-paste-protection = false
+confirm-close-surface = false
+desktop-notifications = false

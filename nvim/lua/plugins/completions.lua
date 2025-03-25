@@ -33,22 +33,25 @@ return {
           ["<S-Tab>"] = cmp.mapping.select_prev_item(),
           ["<C-b>"] = cmp.mapping.scroll_docs(-4),
           ["<C-f>"] = cmp.mapping.scroll_docs(4),
-          ["<C-Space>"] = cmp.mapping.complete(),  -- Manually trigger completion
+
+          ["<C-k>"] = cmp.mapping.complete(),  -- Show suggestions manually
+         
           ["<C-e>"] = cmp.mapping.abort(),
           ["<CR>"] = cmp.mapping.confirm({ select = true }),
         }),
         completion = {
-          autocomplete = false,  -- Disable automatic completion
+          autocomplete = false,  -- Disable automatic suggestions
         },
         sources = cmp.config.sources({
           { name = "nvim_lsp" },
           { name = "luasnip" },  -- Snippet completion
-         { name = "path", option = { trailing_slash = true } },
+          { name = "path", option = { trailing_slash = true } },
         }, {
-          { name = "buffer" },
+          { name = "buffer", keyword_length = 3 },  -- Buffer completion appears only after typing 3 chars
         }),
       })
     end,
   },
+
 }
 
